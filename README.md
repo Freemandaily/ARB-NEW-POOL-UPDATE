@@ -6,5 +6,5 @@ This script is specific for ALL (V2) pool and the V3 pool are not taken into con
 
 # API-KEY 
 **1.** You need to add you infura 0r any node provider endpoint (key) to connect to arbitrum netwok\.
-**2.** You will also add your telegram bot Token key to get the update  dierctly on your telegram (If theis part is new to you, you can google how to do it. it very simple).
+**2.** You will also add your telegram bot Token key to get the update  directly on your telegram (If this part is new to you, you can google how to do it. it very simple).
 
