@@ -7,8 +7,7 @@ connect = Web3(Web3.HTTPProvider('https://arbitrum-mainnet.infura.io/v3/(YOUR IN
 
 CAMELOT_FACTORY_CONTRACT = connect.eth.contract(address=connect.to_checksum_address(updater_abi.CAMELOT_FACTORY_ADDRESS),abi=updater_abi.CAMELOT_FACTORY_ABI)
 SUSHI_FACTORY_CONTRACT = connect.eth.contract(address=connect.to_checksum_address(updater_abi.SUSHI_FACTORY_ADDRESS),abi=updater_abi.SUSHI_FACTORY_ABI)
-chain_link = connect.eth.contract(address=connect.to_checksum_address(updater_abi.CHAINLINK_ADDRESS),abi=updater_abi.CHAINLINK_ABI)
-chain_link_SOL = connect.eth.contract(address=connect.to_checksum_address(updater_abi.CHAINLINK_SOL_ADDRESS),abi=updater_abi.CHAINLINK_SOL_ABI)
+
 
 
 WETH = connect.to_checksum_address(updater_abi.WETH)
